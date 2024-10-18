@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Nothing+You+Could+Do&display=swap');
+
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+nav{
+    background: black;
+    -webkit-box-shadow: -3px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    list-style: none;
+
+}
+nav li{
+    padding: 0 24px;
+}
+nav li:first-child{
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: rgb(240, 138, 138);
+}
+
+/* footer styling */
+footer{
+    border-top: 1px solid #333;
+}
+.social-media-links{
+    height: 80px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-media-links img{
+    width: 40px;
+    height: 40px;
+}
+.social-media-links a{
+    margin:0 18px;
+}
+.text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text{
+    background: #eee;
+}
